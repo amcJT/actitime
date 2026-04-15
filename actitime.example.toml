@@ -1,0 +1,5 @@
+[actitime]
+base_url = "https://your-company.actitime.com"
+username = "your.username"
+password = "set-via-env-or-local-copy"
+timeout = 30
