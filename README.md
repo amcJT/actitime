@@ -8,6 +8,8 @@ Lekkie CLI w Pythonie do pracy z API actiTIME. Repo jest przygotowane pod uzycie
 
 Narzedzie nie uzywa zewnetrznych bibliotek. Wystarczy Python 3.11+.
 
+Szybki handoff dla innego modelu lub agenta jest w [HANDOFF.md](HANDOFF.md).
+
 ## Konfiguracja
 
 Najprosciej przez zmienne srodowiskowe:
