@@ -19,7 +19,7 @@ class ActitimeConfig:
 
     @property
     def api_base_url(self) -> str:
-        base = self.base_url.rstrip("/")
+        base = _normalize_base_url(self.base_url)
         if base.endswith("/api/v1"):
             return base
         if base.endswith("/api/v1/swagger"):
@@ -91,3 +91,11 @@ def _read_timeout(env_value: str | None, file_value: object) -> float:
     if timeout <= 0:
         raise ConfigError("ACTITIME_TIMEOUT must be greater than 0.")
     return timeout
+
+
+def _normalize_base_url(raw_base_url: str) -> str:
+    base = raw_base_url.rstrip("/")
+    for suffix in ("/login.do", "/login"):
+        if base.endswith(suffix):
+            return base[: -len(suffix)]
+    return base

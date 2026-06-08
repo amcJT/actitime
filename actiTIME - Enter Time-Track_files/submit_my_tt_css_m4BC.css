@@ -1,0 +1,208 @@
+
+
+
+.listtblcolheader_submit_tt
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 9pt;
+    background-color: #366a98;
+	text-align: center;
+	padding: 4px 6px 4px 6px;
+}
+
+.odd .listtblcell_submit_tt {
+    background-color: #ffffff;
+}
+
+.even .listtblcell_submit_tt {
+    background-color: #fcfaf3;
+}
+
+.deadline_NA
+{
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    color: #999999;
+    font-size: 12px;
+}
+
+.calendarWeekendDayHeaderNormal
+{
+    background-color: #5183ae;
+}
+
+.calendarWeekendDayHeaderLocked
+{
+    background-color: #858585;
+}
+
+.calendarWorkingDayHeaderNormal
+{
+    background-color: #7d9fc4;
+}
+
+.calendarWorkingDayHeaderLocked
+{
+    background-color: #a6a6a6;
+}
+
+.calendarWeekendDayHeaderNormal_today
+{
+    background-color: #9eafb5;
+}
+
+.calendarWeekendDayHeaderLocked_today
+{
+    background-color: #b6b2a1;
+}
+
+.calendarWorkingDayHeaderNormal_today
+{
+    background-color: #9eafb5;
+}
+
+.calendarWorkingDayHeaderLocked_today
+{
+    background-color: #cac6b5;
+}
+
+.overtimeheader
+{
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    color: #625644;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #f0ead7;
+}
+
+.overtimeheader td {
+		padding-top: 8px;
+        padding-bottom: 8px;
+}
+
+.overtimeheader table td {
+	padding: 0;
+}
+
+#overtimeTotal {
+	padding-right: 8px;
+	color: #000000;
+}
+
+.calendarWorkingDayTotal,
+.calendarWeekendDayTotal,
+.calendarLockedWorkingDayTotal,
+.calendarLockedWeekendDayTotal
+{
+    color: #625644;
+    background-color: #f0ead7;
+}
+
+.calendarWorkingDayTotal_today,
+.calendarWeekendDayTotal_today,
+.calendarLockedWorkingDayTotal_today,
+.calendarLockedWeekendDayTotal_today
+{
+    color: #625644;
+    background-color: #f9efbe;
+}
+
+.summaryTotal td {
+	padding: 8px 0;
+}
+
+.summaryTotal table td {
+	padding: 0;
+}
+
+.weektotalheader
+{
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    color: #625644;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.weektotalheader span {
+	color: #000000;
+}
+
+
+#weekTotal {
+	padding-right: 8px;
+}
+
+.summaryheader {
+    background-color: #f0ead7;
+}
+
+.commentmsg
+{
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    color: #666666;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom:4px;
+    font-weight: normal;
+	padding-right: 12px;
+}
+
+
+/* TODO: CSS selectors with chained classes are not supported in IE6 and other IEs in IE6 compatibility mode.
+         So it's a risky code below. */
+
+/* LeaveButton normal */
+
+table.leaveButton
+{
+    background-color: #f1f6fa;
+}
+
+table.leaveButton.today
+{
+    background-color: #fff2b5;
+}
+
+/* LeaveButton nonworking day */
+
+table.leaveButton.nonworking
+{
+    background-color: #f1f5fa;
+}
+
+table.leaveButton.nonworking_today
+{
+    background-color: #fff2b5;
+}
+
+
+.odd .calendarCurrentDayNormal
+{
+    background-color: #fff4c1;
+}
+
+.even  .calendarCurrentDayNormal
+{
+    background-color: #fff2b5;
+}
+
+.odd .calendarWorkingDayNormal
+{
+    background-color: #ffffff;
+}
+
+.even .calendarWorkingDayNormal
+{
+    background-color: #fcfaf3;
+}
+
+.odd .calendarWeekendDayNormal
+{
+    background-color: #f1f5fa;
+}
+
+.even .calendarWeekendDayNormal
+{
+    background-color: #eef2f4;
+}

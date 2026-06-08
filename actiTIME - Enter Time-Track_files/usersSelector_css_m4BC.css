@@ -1,0 +1,21 @@
+
+
+#usersSelector .x-form-field {
+    height: 22px !important; /* Required for Safari */
+}
+
+.users-selector-group-item
+{
+    font: bold 12px tahoma, arial, helvetica, sans-serif;
+    padding: 5px 0 5px 3px;
+    background-color: #f8f5e9;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.showVerticalScrollbar .x-combo-list-inner
+{
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+}

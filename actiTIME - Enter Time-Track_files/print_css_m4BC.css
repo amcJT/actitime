@@ -1,0 +1,58 @@
+
+
+body
+{
+    background: white !important;
+}
+#container {
+    width: 100%;
+}
+table {
+    display: none;
+}
+.display-for-print {
+    display: table;
+    width: 100%;
+}
+.display-for-print table {
+    display: table;
+    width: 100%;
+}
+.noprint {
+    display: none !important;
+}
+
+.report-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-left: 1px solid #aaaaaa;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.report-table td {
+    font-family: Arial,Helvetica;
+    font-size: 12px;
+    border-right: 1px solid #aaaaaa;
+    border-top: 1px solid #aaaaaa;
+}
+
+#report-logo
+{
+    display:table-cell!important;
+}
+
+#container .display-for-print{width:100%!important}
+
+.for-print-only-table
+{
+    display: table;
+}
+
+.for-print-only
+{
+    display: block;
+}
+
+.pagetitle {
+    font-size: 18pt;
+}

@@ -1,0 +1,59 @@
+
+
+/* Mozilla bug: ignores first CSS-rule at included file */
+.fake {}
+
+.at-dropdown-list-btn .x-btn-left,
+.at-dropdown-list-btn .x-btn-center,
+.at-dropdown-list-btn .x-btn-right
+{
+    background: transparent;
+    height: 22px;
+}
+
+.at-dropdown-list-btn .x-btn-text
+{
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+    color : #000000;
+}
+
+.at-dropdown-list-btn a:link,
+.at-dropdown-list-btn a.x-btn-text,
+{
+    color : #000000;   
+}
+
+.at-dropdown-list-btn-ct .x-btn-over
+{
+    background-color: #ffd303;
+}
+
+.at-dropdown-list-btn-menu
+{
+    background: #ffffff url(/img/default/dropdown_list_btn/menu.gif?hash=797059755) repeat-y;
+}
+
+.at-dropdown-list-btn-menu .x-menu-item-icon {
+	margin: 0 12px 0 0;
+}
+
+.at-dropdown-list-btn-menu .x-menu-item-active {
+	background: #ffd303 url(/img/default/dropdown_list_btn/item-over.gif?hash=797059755) repeat-x left bottom;
+	border:1px solid #ffd303;
+}
+
+.at-dropdown-list-btn-menu .x-menu-item-active a.x-menu-item {
+    color: #000000;
+}
+
+.at-dropdown-list-btn-menu .x-menu-item-checked .x-menu-group-item .x-menu-item-icon{
+    background: transparent url(/img/default/dropdown_list_btn/group-checked.gif?hash=797059755) no-repeat center;
+}
+
+.at-dropdown-list-btn .x-btn-with-menu .x-btn-center em
+{
+    background: transparent url(/img/default/dropdown_list_btn/small_black_triangle.gif?hash=797059755) no-repeat right center;
+}

@@ -1,0 +1,64 @@
+
+
+div#cleanupDemoDataPopup {
+    position: absolute;
+    z-index: 1005;
+    display: none;
+}
+
+div#cleanupDemoDataPopup td {
+    font-family: Arial, Helvetica, serif;
+    font-size: 13px;
+}
+
+div#cleanupDemoDataPopup td.top-left {width:7px; background-image:url(/img/default/dialogs/deleteconfirm/top-left.gif?hash=797059755)}
+div#cleanupDemoDataPopup td.top {height:7px; background-image:url(/img/default/dialogs/deleteconfirm/top.gif?hash=797059755)}
+div#cleanupDemoDataPopup td.top-right {width:7px; background-image:url(/img/default/dialogs/deleteconfirm/top-right.gif?hash=797059755)}
+div#cleanupDemoDataPopup td.left {background-image:url(/img/default/dialogs/deleteconfirm/left.gif?hash=797059755)}
+div#cleanupDemoDataPopup td.content {padding:15px;width:380px;background-color:#f1f6fa}
+div#cleanupDemoDataPopup td.right {background-image:url(/img/default/dialogs/deleteconfirm/right.gif?hash=797059755)}
+div#cleanupDemoDataPopup td.bottom-left {background-image:url(/img/default/dialogs/deleteconfirm/bottom-left.gif?hash=797059755)}
+div#cleanupDemoDataPopup td.bottom {height:7px; background-image:url(/img/default/dialogs/deleteconfirm/bottom.gif?hash=797059755)}
+div#cleanupDemoDataPopup td.bottom-right {background-image:url(/img/default/dialogs/deleteconfirm/bottom-right.gif?hash=797059755)}
+div#cleanupDemoDataPopup td.header {
+    background-color:#4075A3;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align:center;
+    padding-bottom:7px;
+}
+
+div#cleanupDemoDataPopup ul.cleaning-list {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+div#cleanupDemoDataPopup td.top-message,
+div#cleanupDemoDataPopup td.midle-message,
+div#cleanupDemoDataPopup td.bottom-message {
+    padding: 15 10;
+}
+
+
+div#cleanupDemoDataPopup td.top-message {
+    font-weight:bold;
+    font-size: 14px;
+    padding-top: 5px;
+    color: #f35700;
+}
+
+div#cleanupDemoDataPopup td.midle-message {
+    background-color: #f8f5e9;
+    border-color: #d4cdaa;
+    border-style: solid;
+    border-width: 1px;
+    background-image: url(/img/default/formbuttonpane_bg.gif?hash=797059755);
+}
+
+div#cleanupDemoDataPopup td.bottom-message {
+    font-weight: bold;
+    background: url(/img/default//dialogs/deleteconfirm/warning_icon.gif?hash=797059755) no-repeat;
+    background-position: 10 15;
+    padding-left: 55px;
+}

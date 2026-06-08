@@ -30,6 +30,18 @@ class LoadConfigTests(unittest.TestCase):
         self.assertEqual(config.password, "secret")
         self.assertEqual(config.api_base_url, "https://example.actitime.com/api/v1")
 
+    def test_normalizes_login_url_before_building_api_base(self) -> None:
+        env = {
+            "ACTITIME_BASE_URL": "http://192.168.2.157:8001/login.do",
+            "ACTITIME_USERNAME": "alice",
+            "ACTITIME_PASSWORD": "secret",
+        }
+        with mock.patch.dict(os.environ, env, clear=True):
+            config = load_config()
+
+        self.assertEqual(config.base_url, "http://192.168.2.157:8001/login.do")
+        self.assertEqual(config.api_base_url, "http://192.168.2.157:8001/api/v1")
+
     def test_loads_missing_values_from_toml(self) -> None:
         self.temp_file.write_text(
             "[actitime]\nbase_url='https://example.actitime.com'\nusername='alice'\npassword='secret'\n",

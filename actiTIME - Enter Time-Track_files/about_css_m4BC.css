@@ -1,0 +1,195 @@
+
+
+/********************************** BEGIN "ABOUT" POP-UP **********************************/
+/* "About" pop-up positioning */
+#aboutPopup {
+    position: absolute;
+    z-index: 1005;
+    
+    width: 42em;
+
+    display: none;
+}
+
+/* "About" pop-up font properties */
+#aboutPopup * {
+    font-family: Arial, Helvetica, serif;
+    font-size: 12px;
+}
+
+/* "About" pop-up table properties. Table is used for make-up. */
+#aboutPopup table {
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: none;
+}
+/********************************** END "ABOUT" POP-UP **********************************/
+
+/********************************** BEGIN TOP & BOTTOM BORDERS **********************************/
+/* "About" pop-up background color */
+#aboutPopup table .top,
+#aboutPopup table .bottom,
+#aboutPopup table .aboutContentTable,
+#aboutPopup .left,
+#aboutPopup .right {
+    background-color: #faf8f0;
+}
+
+/* "About" pop-up top border */
+#aboutPopup .top {
+    background-image: url("/img/default/support/about/top.png?hash=797059755");
+    background-position: top;
+}
+
+/* "About" pop-up bottom border */
+#aboutPopup .bottom {
+    background-image: url("/img/default/support/about/bottom.png?hash=797059755");
+    background-position: bottom;
+}
+
+#aboutPopup .top,
+#aboutPopup .bottom {
+    background-repeat: repeat-x;
+}
+
+#aboutPopup .top,
+#aboutPopup .bottom,
+#aboutPopup .top img,
+#aboutPopup .bottom img {
+    height: 5px; /* background image height */
+}
+/********************************** END TOP & BOTTOM BORDERS **********************************/
+
+/********************************** BEGIN LEFT & RIGHT BORDERS **********************************/
+/* "About" pop-up left border */
+#aboutPopup .left {
+    background-image: url("/img/default/support/about/left.png?hash=797059755");
+    background-position: left;
+}
+
+/* "About" pop-up right border */
+#aboutPopup .right {
+    background-image: url("/img/default/support/about/right.png?hash=797059755");
+    background-position: right;
+}
+
+#aboutPopup .left,
+#aboutPopup .right {
+    background-repeat: repeat-y;
+}
+
+#aboutPopup .left,
+#aboutPopup .right,
+#aboutPopup .left img,
+#aboutPopup .right img {
+    width: 5px; /* background image width */
+}
+/********************************** BEGIN LEFT & RIGHT BORDERS **********************************/
+
+/********************************** BEGIN ANGLES **********************************/
+/* "About" pop-up right top border angle */
+#aboutPopup .rightTop {
+    background-image: url("/img/default/support/about/right-top.png?hash=797059755");
+}
+
+/* "About" pop-up right bottom border angle */
+#aboutPopup .rightBottom {
+    background-image: url("/img/default/support/about/right-bottom.png?hash=797059755");
+}
+
+#aboutPopup .rightTop,
+#aboutPopup .rightBottom {
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* "About" pop-up left top border angle */
+#aboutPopup .leftTop {
+    background-image: url("/img/default/support/about/left-top.png?hash=797059755");
+}
+
+/* "About" pop-up left bottom border angle */
+#aboutPopup .leftBottom {
+    background-image: url("/img/default/support/about/left-bottom.png?hash=797059755");
+}
+
+#aboutPopup .leftTop,
+#aboutPopup .leftBottom {
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+/* "About" pop-up border angles sizes */
+#aboutPopup .rightTop,
+#aboutPopup .rightTop img,
+#aboutPopup .rightBottom,
+#aboutPopup .rightBottom img,
+#aboutPopup .leftBottom,
+#aboutPopup .leftBottom img,
+#aboutPopup .leftTop,
+#aboutPopup .leftTop img {
+    width: 16px; /* background image width */
+    height: 16px; /* background image height */
+}
+/********************************** END ANGLES **********************************/
+
+/* Aligment of pop-up content */
+#aboutPopup .aboutContentTable td {
+    vertical-align: top;
+}
+
+#aboutPopup .aboutContentTable .logo {
+    padding: 2px 10px 0 4px;
+}
+
+#aboutPopup .aboutContentTable .link {
+    padding: 15px 10px 0 4px;
+    vertical-align: bottom !important;
+}
+
+#aboutPopup .aboutContentTable .link a {
+    color: #003399 !important;
+}
+
+#aboutPopup .aboutContentTable .link a:visited {
+    color: #003399 !important;
+}
+
+#aboutPopup .aboutContentTable .link a:hover {
+    color: #003399 !important;
+}
+
+#aboutPopup .aboutContentTable .aboutCopyright {
+    padding: 10px 4px 0 0;
+    text-align: right;
+}
+
+#aboutPopup .aboutContentTable .aboutContentCell {
+    padding: 15px 4px 1px 10px;
+}
+
+#aboutPopup .aboutContentTable .aboutContentCell .environmentInfo {
+    margin: 15px 0 15px 0;
+}
+
+#aboutPopup .aboutContentTable .aboutContentCell .environmentInfo td {
+    padding: 2px;
+}
+
+#aboutPopup .aboutContentTable .aboutContentCell .delimiter {
+	width: 100%;
+	height: 1px;
+	background-color: #507baf;
+}
+
+#aboutPopup .aboutContentTable .aboutContentCell .environmentInfo .highlightedText {
+    color:#285ea6;
+    text-align: left;
+    white-space: nowrap;
+    width: 120px;
+}
+
+#aboutPopup .aboutContentTable .close img {
+    cursor: pointer;
+}

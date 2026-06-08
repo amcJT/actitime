@@ -1,0 +1,2206 @@
+
+/* Mozilla bug: ignores first CSS-rule at included file */
+.fake {}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+select {
+    font-family: Arial Unicode MS;
+}
+
+.deadline_in_the_past
+{
+    color: #ff0000;
+}
+
+.deadline,
+.deadline_in_the_past
+{
+    white-space: nowrap;
+}
+
+.logintext
+{
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    color: #2f5474;
+    font-size: 10pt;
+}
+
+.loginerror
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ce0100;
+    font-size: 8pt;
+    padding-bottom:8px;
+}
+
+.rememberMeMainNote
+{
+    font-family: Tahoma, Helvetica;
+    color: #4c6984;
+    font-size: 13px;
+}
+
+.rememberMeMainNoteDisabled
+{
+    font-family: Tahoma, Helvetica;
+    color: #999999;
+    font-size: 13px;
+}
+
+.rememberMeEnableCookiesNote
+{
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #ce0100;
+}
+
+a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #003399;
+}
+
+a:link
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #003399;
+}
+
+a:visited
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #003399;
+}
+
+.weekend, .weekend a, .weekend a:link, .weekend a:visited, .weekend a:hover, .weekend a:active
+{
+    color: #993333;
+}
+
+a.weekend, a:link.weekend, a:visited.weekend, a:hover.weekend, a:active.weekend
+{
+    color: #993333;
+}
+
+a.listtblcolheader
+{
+    color: #ffffff;
+}
+
+a:link.listtblcolheader
+{
+    color: #ffffff;
+}
+
+a:visited.listtblcolheader
+{
+    color: #ffffff;
+}
+
+.pagetitle
+{
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 16pt !important;
+    color: #2f4359;
+    white-space:nowrap;
+}
+
+.pagetitle_thin
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+.formcomment
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.formblocktitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #366a98;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.formfieldtitletop
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    text-align: left;
+    vertical-align: top;
+}
+
+.formfieldtitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.formfieldtitlereqtop
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff0000;
+    font-size: 9pt;
+    vertical-align: top;
+}
+
+.formfieldtitlereq
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff0000;
+    font-size: 9pt;
+    vertical-align: middle;
+}
+
+.req_color
+{
+    color: #ff0000;
+}
+
+.formbuttonpane
+{
+    background-color: #FFFFFF;
+    background-repeat: repeat-x;
+    border-color: #d4cdaa;
+    border-style: solid;
+    border-width: 1px;
+    background-image: url(/img/default/formbuttonpane_bg.gif?hash=797059755);
+}
+
+.formsummarytext
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    padding-right: 10px;
+    color: #817961;
+}
+
+.formsummarybackground
+{
+    background-image: url(/img/default/formbuttonpane_bg.gif?hash=797059755);
+    background-position: top;
+    background-repeat: repeat-x;
+    background-color: #f8f5e9;
+}
+
+.formsummarystatustext
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #817961;
+}
+
+.textblack
+{
+    color: black;
+    font-weight:normal;
+}
+
+.formseporator
+{
+    border-top: 1px solid #d4cdaa;
+}
+
+.formbuttonpane .controlBorder
+{
+    border: 1px solid #cec491;
+}
+
+.formbuttonpane .formblocktitle, .roundedFormSection .formblocktitle {
+	color: #625644;
+}
+
+.controlBorder
+{
+    border: 1px solid #cec491;
+}
+
+div.formbuttonpane_line
+{
+    border-bottom: solid 1px #d4cdaa;
+}
+
+.formselectpane
+{
+    background-color: #f8f5e9;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    font-size: 18px;
+    padding-right:8px;
+}
+
+.formselectpane select
+{
+    border: 1px solid #cec491;
+}
+
+
+.darkpane
+{
+    background-color: #f8f5e9;
+    border-color: #d4cdaa;
+    border-style: solid;
+    border-width: 1px;
+	padding: 7px;
+}
+
+.listtblcolheader
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 9pt;
+    background-color: #366a98;
+    text-align: center;
+}
+
+.reportcolheader,
+.reportcolheaderGroup,
+.reportcolheaderGroupNoSpent,
+.reportcolheaderRate,
+.reportcolheaderCost,
+.reportcolheaderCostLight,
+.reportcolheaderNoSpent,
+.reportcolheaderNonBillable
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+.reportcolheader
+{
+    background-color: #7ba4d2;
+}
+
+.reportcolheaderGroup
+{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #366a98;
+}
+
+.reportcolheaderGroupNoSpent
+{
+    background-color: #488037;
+}
+
+.reportcolheaderRate
+{
+    background-color: #5ca446;
+}
+
+.reportcolheaderCost
+{
+    background-color: #488037;
+}
+
+.reportcolheaderCostLight
+{
+    background-color: #5ca446;
+}
+
+.reportcolheaderNoSpent
+{
+    background-color: #5ca446;
+}
+
+.reportcolheaderNonBillable
+{
+    background-color: #9d9d9d;
+}
+
+.reportcolheaderSmaller
+{
+    font-size: 8pt;
+    font-family: Arial,Helvetica,Verdana,Tahoma,MS Sans Serif,sans-serif;
+    font-weight: bold;
+}
+
+.reportcolheaderSubtitle
+{
+    font-weight: normal;
+    padding-top: 5px;
+    font-size: 7pt;
+}
+
+.reportrow0, .reportrowTotal, .reportrowOvertimeBonus
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9pt;
+    background-color: #ffffff;
+    text-align: right;
+}
+
+.reportrow1
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9pt;
+    background-color: #f9f7ee;
+}
+
+.reportrow2, .reportrowTotalLeave, .reportrowLeave
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9pt;
+    background-color: #fbfaf4;
+}
+
+.reportrow3
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 9pt;
+    background-color: #ffffff;
+}
+
+.reportrow0num, .reportrow0num a, .reportrowTotalNum
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: #ffffff;
+}
+
+.reportrow1num, .reportrow1num a
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: #f9f7ee;
+}
+
+.reportrow2num, .reportrow2num a,  .reportrowTotalLeaveNum,  .reportrowLeaveNum
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: #fbfaf4;
+}
+
+.reportrow3num
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 8pt;
+    background-color: #ffffff;
+}
+
+.reportrow3num a
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: normal;
+}
+
+table.tableWithGenericBorder
+{
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+table.tableWithGenericBorder td
+{
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+}
+
+table.tableWithGenericBorder td.reportTableTitle
+{
+    border: 0 none !important;
+    background-color: #ffffff;
+}
+
+table.tableWithGenericBorder td.reportTableBottom
+{
+    border-left: 0 none !important;
+    border-right: 0 none !important;
+    border-bottom: 0 none !important;
+    border-top: 1px solid #cccccc;
+    background-color: #ffffff;
+    font-size: 1px;
+}
+
+
+td.reportrowOvertimeBonus td.overtimeBonusCaption
+{
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+td.reportrowOvertimeBonus div.overtimeBonusTipLink
+{
+    font-size: 8pt;
+    font-weight: normal;
+    text-align: right;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+td.formVerticalSeparator
+{
+    width: 1px;
+    background-color: #cec491;
+}
+
+.filtertitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+a.listtblcolheader
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+a:link.listtblcolheader
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+a:visited.listtblcolheader
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+a:hover.listtblcolheader
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+a:active.listtblcolheader
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+.listtblcolheadersmall
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 7pt;
+    background-color: #366a98;
+}
+
+a.listtblcolheadersmall
+{
+    font-family: verdana, tahoma, ms sans serif, arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 7pt;
+}
+
+a:link.listtblcolheadersmall
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 7pt;
+}
+
+a:visited.listtblcolheadersmall
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 7pt;
+}
+
+a:hover.listtblcolheadersmall
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 7pt;
+}
+
+a:active.listtblcolheadersmall
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 7pt;
+}
+
+.listtblcolheadersmall_nolink
+{
+    font-family: verdana, tahoma, ms sans serif, arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 7pt;
+}
+
+.listtblcell
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    background-color: #ffffff;
+}
+
+.listtblcellenabled
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #03a12f;
+    font-size: 9pt;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.listtblcelldisabled
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff0000;
+    font-size: 9pt;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+tr.typelisttblrow_non-billable td
+{
+    background-color: #fcfaf4;
+}
+
+tr.listtblrow_highlighted td
+{
+    background-color: #ffd303;
+}
+
+tr.typelisttblrow_non-billable_last-moved td, tr.typelisttblrow_last-moved td
+{
+    background-color: #fdeea8;
+}
+
+.text
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    font-weight: normal;
+}
+
+.tabletitle
+{
+    font-family: Arial, Helvetica;
+    color: #366a98;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.underlined
+{
+    text-decoration:underline;
+}
+
+.smalltext
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: normal;
+}
+
+.textGrayed
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999999;
+    font-size: 9pt;
+}
+
+.grayed
+{
+    color: #999999;
+}
+
+.textemphasis
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    font-weight: bold;
+    color: #c73e00;
+}
+
+.textenabled
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #03a12f;
+}
+
+.textdisabled
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff0000;
+}
+
+.textinactive
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #818181;
+}
+
+.defaultword
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    font-weight: bold;
+    color: #000000;
+}
+
+.successmsg
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #506d00;
+    font-size: 9pt;
+    text-align: left;
+    font-weight: bold;
+}
+
+.errorFieldLabel
+{
+    color: #ce0100;
+    text-align: left;
+    font-weight: bold;
+}
+
+.errormsg
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #ce0100;
+    font-size: 9pt;
+    text-align: left;
+    font-weight: bold;
+}
+
+.warningmsg
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #b94c09;
+    font-size: 8pt;
+    text-align: left;
+}
+
+.warningcell
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #b94c09;
+    font-size: 8pt;
+    text-align: left;
+    padding-right:8px;
+}
+
+.notemsg
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #4c6984;
+    font-size: 8pt;
+    text-align: left;
+    margin-bottom:4px;
+}
+
+.notelist {
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+.notelist li {
+    line-height: 14px;
+}
+
+.bignotemsg
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4c6984;
+    font-size: 9pt;
+    text-align: left;
+    margin-bottom:4px;
+}
+
+.dhtml_popup_title
+{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.leftborder
+{
+    border-left:1px solid #316998;
+}
+
+.rightborder
+{
+    border-right:1px solid #316998;
+}
+
+.topborder
+{
+    border-top:1px solid #316998;
+}
+
+.bottomborder
+{
+    border-bottom:1px solid #316998;
+}
+
+.sideborder
+{
+    border-left:1px solid #316998;
+    border-right:1px solid #316998;
+}
+
+.ecbottomborder
+{
+    border-bottom:1px solid #ff9900;
+}
+
+.ecsideborder
+{
+    border-left:1px solid #ff9900;
+    border-right:1px solid #ff9900;
+}
+
+form
+{
+    margin:0;
+    padding:0;
+}
+
+br.small
+{
+    font-size:5pt;
+}
+
+.infobutton
+{
+    width:64px;
+    font-size:10pt;
+}
+
+.opened_task_status
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    font-weight: bold;
+    color: #03a12f;
+}
+
+.completed_task_status
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+.asterix
+{
+    color: #f58f0a;
+    font-size: 9pt;
+}
+
+.error_details_title
+{
+    color: #959595;
+}
+
+a.small
+{
+    font-size:8pt;
+}
+
+a:link.small
+{
+    font-size:8pt;
+}
+
+a:visited.small
+{
+    font-size:8pt;
+}
+
+a:hover.small
+{
+    font-size:8pt;
+}
+
+a:active.small
+{
+    font-size:8pt;
+}
+
+.licenseviolatedpanel
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    background-color: #eaeaea;
+    padding: 20px 8px;
+}
+
+.licenseheader
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.license
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.loginlogo
+{
+	background-position : left;
+	background-repeat : no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff0000;
+    font-size: 14pt;
+    font-weight: bold;
+    padding-left:30px;
+    padding-bottom:12px;
+}
+
+.captionborderbottom
+{
+    margin:0;
+    padding:0;
+	border-bottom: 1px solid #b9cce4;
+}
+
+.bordered
+{
+	border: 1px solid #6186c4;
+}
+
+.borderbottom
+{
+    margin:0;
+    padding:0;
+	border-bottom: 1px solid #aabacd;
+}
+
+.licensemargin
+{
+    padding: 10px 32px;
+}
+
+.licensetitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-bottom:12px;
+}
+
+.disabledbutton
+{
+    color: #999999;
+}
+
+.comments
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size:9pt;
+    padding-top:6px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #043470;
+    font-family: Verdana, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a.copyright, a.copyright:link, a.copyright:visited, a.copyright:active {
+    font-size: 11px;
+    font-weight: bold;
+    color: #043470;
+    font-family: Verdana, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.copyright:hover {
+    text-decoration: underline;
+}
+
+.param {
+    font-size: 12px;
+    color: #444444;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.active_status
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    font-weight: bold;
+    color: #03a12f;
+}
+
+.archived_status
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+.daterangebutton
+{
+    font-size: 8pt;
+}
+
+.exitconfirmbutton
+{
+
+}
+
+.modified
+{
+    color: #f4b700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.modified-small
+{
+    color: #f4b700;
+    font-family: Arial, Helvetica;
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+a.save-changes-link,
+a:active.save-changes-link,
+a:visited.save-changes-link
+{
+    text-decoration:none;
+    font-family: Arial, Verdana, Tahoma, MS Sans Serif, Helvetica, sans-serif;
+    font-size: 10px;
+    color:#694f00;
+}
+
+a.save-changes-link
+{
+    display:block;
+    width:32px;
+    height:13px;
+    text-align:center;
+    background: url('/img/default/save_button_bg.gif?hash=797059755') no-repeat;
+}
+
+a:hover.save-changes-link
+{
+    background: url('/img/default/save_button_h_bg.gif?hash=797059755') no-repeat;
+    color:#000000;
+}
+
+.grouping-select
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 120px;
+    font-size:9pt;
+}
+
+span.previewTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0 11px 0 0;
+    color:#4a1b1b;
+    padding:0;
+    height:12px;
+}
+
+#previewArea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-top: 3px;
+    margin-bottom: 0;
+    margin-left: 3px;
+    padding-top : 0;
+    padding-bottom: 0;
+    vertical-align: top;
+}
+
+table#previewArea td.firstLevel{
+    font-weight:bold;
+    color:#4a1b1b;
+}
+
+table#previewArea td.secondLevel{
+    font-weight:normal;
+    color:#4a1b1b;
+}
+
+table#previewArea td.thirdLevel{
+    font-weight:normal;
+    font-style: italic;
+    color: #4a1b1b;
+}
+
+table#previewArea span.joined{
+    font-size: 9px;
+    color: #000000;
+    font-weight:normal;
+}
+
+.logoutCell {
+    vertical-align: top;
+    text-align: right;
+    white-space: nowrap;
+    padding-top: 2px;
+}
+
+.logoutCell table {
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    text-align: right;
+}
+
+.logoutCell table .logoutImg {
+    width: 57px;
+    height: 19px;
+    border: none;
+}
+
+.logoutCell table .versionCell {
+    vertical-align: bottom;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+/* Properties of the cell where Help & Support button is placed */
+.logoutCell table .supportCell {
+    vertical-align: bottom;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+/* Properties of Help & Support button */
+.logoutCell table .supportCell img {
+    border: none;
+    height: 23px;
+}
+
+#moireDiv {
+    position: absolute;
+    z-index: 1005;
+    background: url('/img/default/pixel.gif?hash=797059755') repeat;
+    display: none;
+}
+
+#moireIframe {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 330px;
+    height: 5px;
+    display: none;
+}
+
+/* Used to set font properties of controls which are shown under moire instead of selects controls */
+.textAreaInsteadOfMultipleSelect,
+.textInputInsteadOfMultipleSelect {
+    font-family: Microsoft Sans Serif, Arial, Helvetica, serif;
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+.textAreaInsteadOfMultipleSelect {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* Properties of table which is used as container for contant alignment */
+table.containerTable {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border-width: 0;
+}
+
+img.imgbutton-img
+{
+    border: 0px;
+}
+
+span.imgbutton-text
+{
+    font-size: 11px;
+}
+
+.dhtml_title {
+    border: 1px #000000 solid;
+    padding: 5 5 5 5;
+    background-color: #ffffe1;
+    position: absolute;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    text-align: left;
+}
+
+a.smalllink
+{
+    font-family: Arial, Helvetica;
+    font-size: 8pt;
+    font-weight: normal;
+}
+
+a.smalllink:link
+{
+    font-family: Arial, Helvetica;
+    font-size: 8pt;
+    font-weight: normal;
+}
+
+a.smalllink:visited
+{
+    font-family: Arial, Helvetica;
+    font-size: 8pt;
+    font-weight: normal;
+}
+
+.link-with-icon
+{
+    display:inline-block;
+    margin-left: 10px;
+    padding: 7px 0 7px 25px;
+    background-position: center left;
+    background-repeat: no-repeat;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.print-link
+{
+    background-image: url(/img/default/print.gif?hash=797059755);
+}
+
+.hide-details-container
+{
+    text-align: right;
+}
+
+.report-parameters {
+    width: auto;
+}
+
+.report-table
+{
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+.report-table td
+{
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+}
+
+/*Styles for Show/Hide link and Unlock link*/
+
+#hide-details-link, #show-details-link, #unlock-link {
+	display:inline-block;
+	padding: 7px 0 7px 21px;
+	background-repeat: no-repeat;
+}
+
+#hide-details-link, #show-details-link {
+	background-position: left bottom;
+	background-image: url(/img/default/show_hide_details.gif?hash=797059755);
+}
+
+#unlock-link {
+	background-position: left center;
+	background-image: url(/img/default/unlock.gif?hash=797059755);
+}
+
+#hide-details-link {
+	background-position: left top;
+}
+
+#hide-details-link:hover, #hide-details-link:active, #unlock-link {
+    text-decoration: underline;
+}
+
+
+.hide-details .reportrow3
+{
+    display: none;
+}
+
+.hide-details .reportrow3num{
+    display: none;
+}
+
+.hide-details .column-header-details
+{
+    display: none;
+}
+
+.budgetTime
+{
+    color: #989898;
+    font-size: 8pt;
+}
+
+.addTasksToListNotAssignedProject
+{
+    background-color: #ffeded;
+    color: #000000;
+}
+
+.estimatedTime
+{
+    font-family: Verdana, Arial, Helvetica;
+    color: #989898;
+    font-size: 8pt;
+}
+
+.estimateFailed
+{
+    color: #ff0000;
+}
+
+.estimateZero
+{
+    color: #989898;
+}
+
+/* Apply this to the table cell containing radio button to render it identically in IE and FF. */
+.radiocell
+{
+    height: 22px;
+    vertical-align: middle;
+}
+
+.hide-element
+{
+    display: none;
+}
+
+.aligned_checkbox_cell,
+.aligned_radio_button_cell
+{
+    height:23px;
+    width:25px;
+}
+
+.aligned_checkbox_cell input,
+.aligned_checkbox_text,
+.aligned_radio_button_cell input,
+.aligned_radio_button_text
+{
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 9pt;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4em;
+}
+
+.aligned_checkbox_cell input,
+.aligned_radio_button_cell input
+{
+    width: 25px;
+    height:13px;
+}
+
+.timeformat_note_mark_cell
+{
+    width: 25px;
+    text-align: center;
+}
+
+.nowrap
+{
+    white-space: nowrap;
+}
+
+.nowrap span
+{
+    display: block;
+    white-space: nowrap;
+}
+
+.roundedFormSection {width: 100%}
+.roundedFormSection .l {border-left: 1px solid #cec491}
+.roundedFormSection .r {border-right: 1px solid #cec491}
+.roundedFormSection .t {border-top: 1px solid #cec491}
+.roundedFormSection .b {border-bottom: 1px solid #cec491}
+.roundedFormSection .c {height: 2px; width: 2px; background-color: #ffffff}
+.roundedFormSection .v {width: 1px}
+.roundedFormSection .h {height: 1px}
+.roundedFormSection .h img {width: 2px; height: 1px}
+.roundedFormSection .i {padding: 10px}
+
+.sectionedRadio_checked .l {border-left: 1px solid #f4b700}
+.sectionedRadio_checked .r {border-right: 1px solid #f4b700}
+.sectionedRadio_checked .t {border-top: 1px solid #f4b700}
+.sectionedRadio_checked .b {border-bottom: 1px solid #f4b700}
+.sectionedRadio_unchecked .l {border-left: 1px solid #d4cdaa}
+.sectionedRadio_unchecked .r {border-right: 1px solid #d4cdaa}
+.sectionedRadio_unchecked .t {border-top: 1px solid #d4cdaa}
+.sectionedRadio_unchecked .b {border-bottom: 1px solid #d4cdaa}
+
+.sectionedRadio_checked
+{
+    background-color: #fffad2;
+    cursor: default;
+}
+
+.sectionedRadio_unchecked
+{
+    background-color: f1edd9;
+    cursor: default;
+}
+
+.sectionedRadio_checked .outlined,
+.sectionedRadio_unchecked .outlined
+{
+    border: 1px solid #cccccc
+}
+
+
+td.reportFormBlockTitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a573b;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+td.reportFormBlockBodyCell
+{
+    padding-left: 45px;
+    padding-bottom: 12px;
+    vertical-align: top;
+}
+
+
+.reportFormHeader
+{
+    background-image: url('/img/default/report_header_gradient.gif?hash=797059755');
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+.reportFormHeader tr.reportFormHeader-titles td
+{
+    padding-bottom: 10px;
+    vertical-align: middle;
+    height: 50px;
+}
+
+.reportFormHeader-titles .pagetitle {
+	color: #625644;
+}
+
+.reportFormHeader tr.reportFormHeader-titles td.notemsg
+{
+    text-align: right;
+    font-size: 14px;
+    color: #553d1a;
+}
+
+.reportFormHeader td.reportFormHeader-config
+{
+    padding-top: 5px;
+    border-top: 1px dotted #cec491;
+}
+
+
+.reportFormFooter
+{
+    background-image: url('/img/default/submit_panel_gradient.gif?hash=797059755');
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.reportFormFooter td.reportFormFooter-generateButtons
+{
+    border-top: 1px dotted #cec491;
+    padding-top: 10px;
+}
+
+.for-print-only,
+.for-print-only-table
+{
+    display: none;
+}
+
+.emptyCaption
+{
+    color: #AAAAAA;
+}
+
+@media screen
+{
+    .mainContentPadding
+    {
+        padding-left: 22px;
+        padding-right: 0;
+    }
+
+    .rightPadding
+    {
+        padding-right:22px;
+    }
+
+    .bottomPadding
+    {
+        padding-bottom:10px;
+    }
+}
+
+html>body .hiddenInFF
+{
+    display: none;
+}
+
+table.listTable
+{
+    border-top: 1px solid #cccccc;
+}
+
+table.listTable td,
+table.listTable th
+{
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+.tablerightborder
+{
+    border-right: 1px solid #cccccc;
+}
+
+table.listTable td.selectCell,
+table.listTable td.selectCustomer
+{
+    border-left: 1px solid #d4cdaa;
+    border-right: 1px solid #d4cdaa;
+    border-bottom: 1px solid #d4cdaa;
+    background-color: #f8f5e9;
+}
+
+table.listTable td.customer-cell
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    background-color: #fcfaf3;
+}
+
+table.listTable td.project-cell
+{
+    font-family: Verdana, Tahoma, MS Sans Serif, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+table.listTable td.selectProject
+{
+    border-left: 1px solid #d4cdaa;
+    border-right: 1px solid #d4cdaa;
+    border-bottom: 1px solid #d4cdaa;
+    background-color: #fbfaf4;
+}
+
+.listbuttonpane
+{
+    position: relative;
+    float:right;
+    background-color: #f8f5e9;
+    background: url(/img/default/formbuttonpane_bg.gif?hash=797059755) repeat-x top;
+    padding: 2px 7px;
+    border-left: 1px solid #d4cdaa;
+    border-right: 1px solid #d4cdaa;
+    border-bottom: 1px solid #d4cdaa;
+}
+
+.listbuttonpane .bottom-left-corner,
+.listbuttonpane .bottom-right-corner
+{
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+}
+
+.listbuttonpane .bottom-left-corner
+{
+    bottom: -1px;
+    left: -1px;
+    background: url(/img/default/bottom-left.gif?hash=797059755) no-repeat left bottom;
+}
+
+.listbuttonpane .bottom-right-corner
+{
+    bottom: -1px;
+    right: -1px;
+    background: url(/img/default/bottom-right.gif?hash=797059755) no-repeat right bottom;
+}
+
+.result-number
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #625644;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+/*--------------------------------------------------------*/
+/*-----------Update for exjs form_css.jsp sheet-----------*/
+/*--------------------------------------------------------*/
+
+.x-form-field-wrap .x-form-trigger{
+    height:22px !important;
+}
+
+.x-form-field-wrap .x-form-date-trigger{
+    background: url(/img/default/extjs/form/date-trigger.gif?hash=797059755) no-repeat top right !important;
+	width: 21px !important;
+}
+
+.formbuttonpane .x-form-field-wrap .x-form-date-trigger
+{
+    background-image: url(/img/default/extjs/form/date-trigger-formbuttonpane.gif?hash=797059755) !important;
+}
+
+.x-form-field-wrap .x-form-trigger
+{
+    border-bottom: none/*1px solid #cec491*/ !important;
+}
+
+.x-form-field-wrap .x-form-trigger-over{
+    background-position: right 0px !important; /*-24*/
+}
+.x-form-field-wrap .x-form-trigger-click{
+    background-position: right 0px !important; /*-48*/
+}
+
+.x-trigger-wrap-focus .x-form-trigger{
+    background-position: right 0px !important; /*-72*/
+}
+.x-trigger-wrap-focus .x-form-trigger-over{
+    background-position: right 0px !important; /*96*/
+}
+.x-trigger-wrap-focus .x-form-trigger-click{
+    background-position: right 0px !important; /*-120*/
+}
+
+.x-form-check-wrap-inner, .x-form-radio-wrap-inner,
+.x-form-item, .x-form-element, .x-form-radio-wrap
+{
+    outline: none;
+}
+
+/*-------------------------------------------------------------------------------------*/
+/*-----------Update for exjs load_reportconfiguration_css.jsp sheet-----------*/
+/*------------------------------------------------------------------------------------*/
+
+.at-reload-button a {
+	background: url(/img/default/reload_conf.gif?hash=797059755) no-repeat center top !important;
+	display: block !important;
+	height: 21px !important;
+	width: 26px !important;
+}
+
+.at-reload-button a:hover {
+	background-position: center bottom !important;
+}
+
+.reports_show_hide_print_row  td, .lock-timetrack-link-row td{
+    height: 27px;
+}
+
+.reports_change_report_params_cell {
+    vertical-align: middle;
+}
+
+.disabled_link
+{
+    color: #808080;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:9pt;
+}
+
+#firstLoginSplash {
+    position: absolute;
+    z-index: 1005;
+    display: none;
+}
+
+.firstLoginSplashBox .inner {background-color: #ffffff}
+.firstLoginSplashBox .content { padding: 20px; }
+.firstLoginSplashBox .l {border-left: 1px solid #5c8bb4}
+.firstLoginSplashBox .r {border-right: 1px solid #5c8bb4}
+.firstLoginSplashBox .t {border-top: 1px solid #5c8bb4}
+.firstLoginSplashBox .b {border-bottom: 1px solid #5c8bb4}
+.firstLoginSplashBox .v {width: 1px}
+.firstLoginSplashBox .h {height: 1px }
+.firstLoginSplashBox .h img {width: 2px; height: 1px}
+.firstLoginSplashBox .v img {width: 1px; height: 2px}
+
+.firstLoginSplashBox .recommendation { width: 100%; background: url("/img/default/license/intro_bg.gif?hash=797059755") 100% 0 repeat-x #efebca;}
+.firstLoginSplashBox .recommendation .l {border-left: 1px solid #f7f4e4}
+.firstLoginSplashBox .recommendation .r {border-right: 1px solid #f7f4e4}
+.firstLoginSplashBox .recommendation .t {border-top: 1px solid #f7f4e4}
+.firstLoginSplashBox .recommendation .b {border-bottom: 1px solid #f7f4e4}
+.firstLoginSplashBox .recommendation .c {height: 2px; width: 2px; background-color: white }
+.firstLoginSplashBox .recommendation .v {width: 1px}
+.firstLoginSplashBox .recommendation .h {height: 1px}
+.firstLoginSplashBox .recommendation .h img {width: 2px; height: 1px}
+.firstLoginSplashBox .recommendation .i {
+    padding:10px;
+    font-size: 12px;
+    font-family: Arial, serif;
+    color: #21496c;
+}
+
+.firstLoginSplashBox .userguide { width: 100% }
+.firstLoginSplashBox .userguide .l {border-left: 1px solid #e0d89b}
+.firstLoginSplashBox .userguide .r {border-right: 1px solid #e0d89b}
+.firstLoginSplashBox .userguide .t {border-top: 1px solid #e0d89b}
+.firstLoginSplashBox .userguide .b {border-bottom: 1px solid #e0d89b}
+.firstLoginSplashBox .userguide .c {height: 2px; width: 2px; background-color: white }
+.firstLoginSplashBox .userguide .v {width: 1px}
+.firstLoginSplashBox .userguide .h {height: 1px}
+.firstLoginSplashBox .userguide .h img {width: 2px; height: 1px}
+.firstLoginSplashBox .userguide .i {
+    padding: 0px;
+    text-align: center;
+}
+
+
+.firstLoginSplashBox .pipka
+{
+    background: url(/img/default/license/pipka2.gif?hash=797059755) 40px top no-repeat;
+    padding-top: 15px;
+}
+
+.firstLoginSplashBox .contentTable
+{
+    color: #21496c;
+}
+
+.firstLoginSplashBox .contentTable .thankYouText
+{
+    font-family: Arial, serif;
+    font-size  : 26px;
+    font-weight:bold;
+    padding-left: 10px;
+    background: url(/img/default/license/logo.gif?hash=797059755) no-repeat top right;
+    text-align: left;
+    height: 60px;
+    width: 440px;
+}
+
+.firstLoginSplashBox .contentTable .bulletsTable
+{
+    color: #21496c;
+    font-family: Arial, serif;
+    margin: 12px;
+}
+
+.firstLoginSplashBox .contentTable .bullet
+{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.firstLoginSplashBox .contentTable .bullet .header
+{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.firstLoginSplashBox .contentTable .bullet .descr
+{
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.firstLoginSplashBox .contentTable .bullet .hr
+{
+    border-top: 1px dotted #7a92a7;
+    border-bottom: none;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+}
+
+.firstLoginSplashBox .contentTable .userguideTable
+{
+    font-family: Arial, serif;
+    font-size: 13px;
+    color: #21496c;
+}
+
+.firstLoginSplashBox .contentTable .startButton
+{
+    width: 234px;
+    height: 40px;
+    background: url(/img/default/dialogs/splash/startbutton_bg.gif?hash=797059755) no-repeat;
+    border-style: none;
+    line-height: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#demoDataChoiceSplash {
+    position: absolute;
+    z-index: 1005;
+    display: none;
+}
+
+.firstLoginSplashBox .welcomeSection {
+    text-align:left;
+    vertical-align:middle;
+    font-size: 26px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight:bold;
+    background: url(/img/default/license/logo.gif?hash=797059755) no-repeat top right;
+    height: 60px;
+    padding-left: 10px;
+    color: #21496C;
+}
+.firstLoginSplashBox .welcomeSection div{
+    font-size: 15px;
+    font-weight:normal;
+    padding-top:5px;
+}
+
+.loadDataButtonsPane
+{
+    position: relative;
+    float:right;
+    background: url(/img/default/dialogs/splash/bg-demo.png?hash=797059755) repeat-x top;
+    padding-top: 7px;    
+    height: 276px;
+    width: 100%;
+    margin-top:15px;
+}
+
+.loadDataButtonsPane .topLeftCorner,
+.loadDataButtonsPane .topRightCorner,
+.loadDataButtonsPane .bottomLeftCorner,
+.loadDataButtonsPane .bottomRightCorner
+{
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    font-size:1px;
+}
+.loadDataButtonsPane .topLeftCorner {
+    top: 0;
+    left: 0;
+    background: url(/img/default/dialogs/splash/corner-demo.png?hash=797059755) no-repeat left top;
+}
+.loadDataButtonsPane .topRightCorner {
+    top: 0;
+    right: 0;
+    background: url(/img/default/dialogs/splash/corner-demo.png?hash=797059755) no-repeat right top;
+}
+.loadDataButtonsPane .bottomLeftCorner {
+    bottom: 0;
+    left: 0;
+    background: url(/img/default/dialogs/splash/corner-demo.png?hash=797059755) no-repeat left bottom;
+}
+.loadDataButtonsPane .bottomRightCorner {
+    bottom: 0;
+    right: 0;
+    background: url(/img/default/dialogs/splash/corner-demo.png?hash=797059755) no-repeat right bottom;
+}
+.disabled .loadDataButtonsPane {
+    background-position:left bottom;
+}
+.disabled .loadDataButtonsPane .topLeftCorner,
+.disabled .loadDataButtonsPane .topRightCorner,
+.disabled .loadDataButtonsPane .bottomLeftCorner,
+.disabled .loadDataButtonsPane .bottomRightCorner
+{
+    background-image:url(/img/default/dialogs/splash/corner-demo-disabled.png?hash=797059755);
+}
+
+td#pro-architects,
+td#web-design-studio {
+    width:50%;
+}
+
+.loadDataButtonsPane .choiceDiv
+{
+    position: relative;
+    height: 266px;
+    width: 190px;
+    cursor: pointer;
+}
+.loadDataButtonsPane .choiceDiv .choiceTable{
+    margin-top:10px;
+    height:188px;
+    width:100%;
+}
+.loadDataButtonsPane .choiceDiv .choiceTable td
+{
+    text-align:center;
+    vertical-align:middle;
+}
+.loadDataButtonsPane .choiceDiv nobr {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    color: #21496C;
+}
+.disabled .loadDataButtonsPane div.hovered nobr {
+    color: #21496C;
+}
+.disabled .loadDataButtonsPane .choiceDiv nobr {
+    color: #7a7a7a;
+}
+.loadDataButtonsPane .choiceDiv .company-type nobr
+{
+    font-weight:bold;
+    font-size:15px;
+    color: #1274c8;
+}
+.disabled .loadDataButtonsPane .choiceDiv .company-type nobr {
+    color: #7a7a7a;
+}
+.choiceDiv .indicator {
+    visibility:hidden;
+    padding-top: 10px;
+}
+.disabled .hovered .indicator {
+    visibility: visible;
+}
+.loadDataButtonsPane .hovered {
+    top:-2px;
+}
+
+#pro-architects .hovered {
+    background: url(/img/default/dialogs/splash/bg-arch.png?hash=797059755) repeat-x;
+    border: 2px #d3b796 solid;
+}
+#pro-architects .hovered .company-type nobr {
+    color:#be3a00;
+}
+
+#pro-architects .hovered .topLeft,
+#pro-architects .hovered .topRight,
+#pro-architects .hovered .bottomLeft,
+#pro-architects .hovered .bottomRight {
+    background-image: url(/img/default/dialogs/splash/corner-red.png?hash=797059755);
+}
+
+.disabled #pro-architects .hovered .topLeft,
+.disabled #pro-architects .hovered .topRight,
+.disabled #pro-architects .hovered .bottomLeft,
+.disabled #pro-architects .hovered .bottomRight {
+    background-image: url(/img/default/dialogs/splash/corner-red-loading.png?hash=797059755);
+}
+
+
+#web-design-studio .hovered {
+    background: url(/img/default/dialogs/splash/bg-web.png?hash=797059755) repeat-x;
+    border: 2px #b8c988 solid;
+}
+#web-design-studio .hovered .company-type nobr {
+    color:#637f16;
+}
+
+#web-design-studio .hovered .topLeft,
+#web-design-studio .hovered .topRight,
+#web-design-studio .hovered .bottomLeft,
+#web-design-studio .hovered .bottomRight {
+    background-image: url(/img/default/dialogs/splash/corner-green.png?hash=797059755);
+}
+
+.disabled #web-design-studio .hovered .topLeft,
+.disabled #web-design-studio .hovered .topRight,
+.disabled #web-design-studio .hovered .bottomLeft,
+.disabled #web-design-studio .hovered .bottomRight {
+    background-image: url(/img/default/dialogs/splash/corner-green-loading.png?hash=797059755);
+}
+
+.choiceSection .topLeft,
+.choiceSection .topRight,
+.choiceSection .bottomLeft,
+.choiceSection .bottomRight {
+    display: block;
+    position: absolute;
+    width:7px;
+    height:7px;
+    background-repeat: no-repeat;
+    font-size:1px;
+}
+.choiceSection .hovered .topLeft { top:-2; left:-2; background-position:left top; }
+.choiceSection .hovered .topRight { top:-2; right:-2; background-position:right top; }
+.choiceSection .hovered .bottomLeft { bottom:-2; left:-2; background-position:left bottom; }
+.choiceSection .hovered .bottomRight { bottom:-2; right:-2; background-position:right bottom; }
+
+.choiceSection {
+    padding-top:30px;
+    padding-left:45px;
+    padding-right:21px;
+    background: url(/img/default/dialogs/splash/bullet.png?hash=797059755) 10px 33px no-repeat;
+    text-align:left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size:13px;
+    color: #21496C;
+}
+
+#blank-install {
+    margin-top:12px;
+    margin-bottom:30px;
+    height:50px;
+}
+
+#blank-install .emptyDbChooseButton {
+    position: relative;
+    text-align:center;
+    line-height:44px;
+    height:44px;
+    background: url(/img/default/dialogs/splash/bg-empty.png?hash=797059755) left top repeat-x;
+    font-weight: bold;
+    color: #00547d;
+}
+
+.disabled #blank-install .emptyDbChooseButton {
+    background-position:left -90px;
+    color: #7a7a7a;
+}
+
+#blank-install div.hovered,
+.disabled #blank-install div.hovered {
+    top:-2px;
+    background-position:left -45px;
+    color: #1274c8;
+    border: 2px #64a5c5 solid;
+}
+
+#blank-install div.hovered {
+    cursor:pointer;
+}
+
+.disabled #blank-install div.hovered,
+.disabled .loadDataButtonsPane .choiceDiv,
+.disabled .firstLoginSplashBox {
+    cursor:wait;
+}
+
+#blank-install div.hovered .topLeft { top:-2; left:-2;}
+#blank-install div.hovered .topRight { top:-2; right:-2;}
+#blank-install div.hovered .bottomLeft { bottom:-2; left:-2;}
+#blank-install div.hovered .bottomRight { bottom:-2; right:-2;}
+
+#blank-install div.hovered .topLeft,
+#blank-install div.hovered .topRight,
+#blank-install div.hovered .bottomLeft,
+#blank-install div.hovered .bottomRight,
+.disabled #blank-install div.hovered .topLeft,
+.disabled #blank-install div.hovered .topRight,
+.disabled #blank-install div.hovered .bottomLeft,
+.disabled #blank-install div.hovered .bottomRight {
+    background-image: url(/img/default/dialogs/splash/corner-blue.png?hash=797059755);
+}
+
+#blank-install .emptyDbChooseButton .topLeft { top:0; left:0; background-position:left top; }
+#blank-install .emptyDbChooseButton .topRight { top:0; right:0; background-position:right top; }
+#blank-install .emptyDbChooseButton .bottomLeft { bottom:0; left:0; background-position:left bottom; }
+#blank-install .emptyDbChooseButton .bottomRight { bottom:0; right:0; background-position:right bottom; }
+
+#blank-install .emptyDbChooseButton .topLeft,
+#blank-install .emptyDbChooseButton .topRight,
+#blank-install .emptyDbChooseButton .bottomLeft,
+#blank-install .emptyDbChooseButton .bottomRight {
+    background-image: url(/img/default/dialogs/splash/corner-empty.png?hash=797059755);
+}
+
+.disabled #blank-install .emptyDbChooseButton .topLeft,
+.disabled #blank-install .emptyDbChooseButton .topRight,
+.disabled #blank-install .emptyDbChooseButton .bottomLeft,
+.disabled #blank-install .emptyDbChooseButton .bottomRight {
+    background-image: url(/img/default/dialogs/splash/bg-empty-disabled.png?hash=797059755);
+}
+
+.demoDataLoadedMsg
+{
+    width: 100%;
+}
+
+.demoDataLoadedMsg {background-image: url(/img/default//formbuttonpane_bg.gif?hash=797059755)}
+.demoDataLoadedMsg .l {border-left: 1px solid #d4cdaa}
+.demoDataLoadedMsg .r {border-right: 1px solid #d4cdaa}
+.demoDataLoadedMsg .t {border-top: 1px solid #d4cdaa}
+.demoDataLoadedMsg .b {border-bottom: 1px solid #d4cdaa}
+.demoDataLoadedMsg .c {height: 2px; width: 2px; background-color: #ffffff}
+.demoDataLoadedMsg .v {width: 1px}
+.demoDataLoadedMsg .h {height: 1px}
+.demoDataLoadedMsg .h img {width: 2px; height: 1px}
+.demoDataLoadedMsg .i {
+    padding: 5px 10px;
+}
+
+.demoDataLoadedMsg .verticalSeparator
+{
+    border-right: 1px solid #d4cdaa;
+    padding-left: 25px;
+}
+
+
+.demoDataLoadedMsg .msgText,
+.demoDataLoadedMsg .errormsg,
+.demoDataLoadedMsg .text{
+    padding: 0 20 0 10;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.demoDataLoadedMsg .msgText
+{
+    font-weight: bold;
+    color: #506d00;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -moz-binding: url('/css/text-overflow.xml#ellipsis');
+}
+
+.specificReportButton
+{
+    border-left: 1px solid #cec491;
+    border-right: 1px solid #cec491;
+}
+
+.reportButton
+{
+    width: 184px;
+    height: 28px;
+    padding-bottom: 2px;
+    vertical-align: bottom;
+}
+
+div.topSpacer
+{
+    height:10px;
+    font-size:1px;
+}
+
+.nonWorkingDayText
+{
+    font-weight: normal;
+    font-size: 8pt;
+}
+
+
+.unselectable
+{
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    user-select:none;
+}
+
+.invisible, .invisible *
+{
+    visibility: hidden !important;
+}
+
+.errorComboBox
+{
+    border: 2px solid #ff2000;
+}
+
+.warningMessageBox
+{
+    width: 100% ;
+    background-color: #FFF4E1;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.warningMessageBox .l {border-left: 1px solid #d6825a;}
+.warningMessageBox .r {border-right: 1px solid #d6825a;}
+.warningMessageBox .t {border-top: 1px solid #d6825a;}
+.warningMessageBox .b {border-bottom: 1px solid #d6825a;}
+.warningMessageBox .c {height: 2px; width: 2px; background-color: #FFF4E1;}
+.warningMessageBox .v {width: 1px}
+.warningMessageBox .h {height: 1px}
+.warningMessageBox .h img {width: 2px; height: 1px}
+.warningMessageBox .i {padding: 10px}
+
+.warningMessageBox .title,
+.warningMessageBox .description
+{
+    padding: 0 10px 0 23px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.warningMessageBox .title
+{
+    font-weight: bold;
+    color: #b94c09;
+    background: url(/img/default/warning_red_mark.png?hash=797059755) no-repeat left 2px;
+}
+
+span.highlightToken
+{
+    color: #b0550b;
+    text-decoration: underline;
+}

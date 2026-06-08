@@ -232,6 +232,12 @@ class ActitimeClient:
         except error.HTTPError as exc:
             details = _decode_error_payload(exc)
             message = details.get("message") if isinstance(details, dict) else None
+            if message and _looks_like_html(message) and exc.code == 404:
+                message = (
+                    f"actiTIME returned 404 for {url}. "
+                    "Check ACTITIME_BASE_URL and whether the API is available at "
+                    f"{self.config.api_base_url}/swagger."
+                )
             raise ActitimeApiError(
                 message or f"actiTIME API error {exc.code}: {exc.reason}",
                 status_code=exc.code,
@@ -268,6 +274,11 @@ def _decode_error_payload(exc: error.HTTPError) -> Any:
         return json.loads(payload) if payload else None
     except json.JSONDecodeError:
         return {"message": payload} if payload else None
+
+
+def _looks_like_html(text: str) -> bool:
+    lowered = text.lower()
+    return "<html" in lowered or "</html>" in lowered or "<body" in lowered
 
 
 def _to_lookup(value: Any) -> dict[str, dict[str, Any]]:

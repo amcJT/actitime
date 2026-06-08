@@ -60,6 +60,21 @@ class ActitimeClientTests(unittest.TestCase):
         self.assertEqual(ctx.exception.status_code, 401)
         self.assertIn("bad credentials", str(ctx.exception))
 
+    def test_request_json_adds_hint_for_html_404(self) -> None:
+        http_error = error.HTTPError(
+            url="https://example.actitime.com/api/v1/users/me",
+            code=404,
+            msg="Not Found",
+            hdrs=None,
+            fp=io.BytesIO(b"<html><body><h1>Not found</h1></body></html>"),
+        )
+        with mock.patch("urllib.request.urlopen", side_effect=http_error):
+            with self.assertRaises(ActitimeApiError) as ctx:
+                self.client.request_json("GET", "/users/me")
+
+        self.assertEqual(ctx.exception.status_code, 404)
+        self.assertIn("Check ACTITIME_BASE_URL", str(ctx.exception))
+
     def test_get_day_entries_flattens_response(self) -> None:
         with mock.patch.object(self.client, "resolve_user_for_query", return_value={"id": 1, "username": "alice"}):
             with mock.patch.object(

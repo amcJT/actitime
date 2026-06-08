@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-06-03",
+    "project": "950BT Sensor",
+    "task": "Programowanie PC",
+    "hours": 8
+  },
+  {
+    "date": "2026-06-04",
+    "project": "950BT Sensor",
+    "task": "Programowanie PC",
+    "time": "1:30",
+    "comment": "debug i poprawki"
+  },
+  {
+    "date": "2026-06-05",
+    "taskId": 7799,
+    "hours": 2.5
+  }
+]

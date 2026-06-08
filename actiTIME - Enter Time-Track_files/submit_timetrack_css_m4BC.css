@@ -1,0 +1,731 @@
+
+
+
+.mainContentPadding {
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.calendarWorkingDayHeader
+{
+    padding: 2 2 2 2;
+}
+
+.calendarWeekendDayHeader
+{
+    padding: 2 2 2 2;
+}
+
+.calendarWorkingDay
+{
+    padding: 2 2 2 2;
+}
+
+.calendarWeekendDay
+{
+    padding: 2 2 2 2;
+}
+
+.calendarTable
+{
+    color: black;
+}
+
+.mainSidesMargin {
+    padding-left: 17px;
+}
+
+.mainSidesMarginIE {
+    _padding-left: 21px;
+}
+
+.mainSidesPadding {
+    padding-left: 21px;
+}
+
+.tt-table {
+    border-collapse: collapse;
+}
+
+.tt-table td {
+    border: 1px solid #dedede;
+}
+
+.tt-table .listtblcolheader_submit_tt {
+    border-bottom: none;
+}
+
+.tt-table .leaveButtonCell {
+    border-left: none;
+}
+
+/* do not draw borders for nested tables */
+.tt-table table,
+.tt-table table td,
+.tt-table table td.calendarWorkingDayHeaderNormal {
+    border: none;
+}
+
+.tt-table .inputTT,
+.tt-table .completedTimeText {
+    text-align: right;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    width: 40px;
+}
+
+.tt-table .completedTimeText {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: block;
+    width: 38px;
+}
+
+.listtblcell_submit_tt
+{
+    font-family: Arial, Helvetica;
+    font-size: 9pt;
+	padding: 4px 6px 4px 6px;
+}
+
+.calendarCurrentDayNormal,
+.calendarWeekendDayNormal,
+.calendarWorkingDayNormal,
+.calendarWorkingDayTotal,
+.calendarWeekendDayTotal,
+.calendarLockedWorkingDayTotal,
+.calendarLockedWeekendDayTotal,
+.calendarWorkingDayTotal_today,
+.calendarWeekendDayTotal_today,
+.calendarLockedWorkingDayTotal_today,
+.calendarLockedWeekendDayTotal_today {
+    padding:2px 1px 2px 4px;
+}
+
+.calendarWorkingDayTotal,
+.calendarWeekendDayTotal,
+.calendarLockedWorkingDayTotal,
+.calendarLockedWeekendDayTotal,
+.calendarWorkingDayTotal_today,
+.calendarWeekendDayTotal_today,
+.calendarLockedWorkingDayTotal_today,
+.calendarLockedWeekendDayTotal_today
+{
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: right;
+}
+
+.calendarWorkingDayTotal span,
+.calendarWeekendDayTotal span,
+.calendarLockedWorkingDayTotal span,
+.calendarLockedWeekendDayTotal span,
+.calendarWorkingDayTotal_today span,
+.calendarWeekendDayTotal_today span,
+.calendarLockedWorkingDayTotal_today span,
+.calendarLockedWeekendDayTotal_today span {
+    padding-right: 20px;
+}
+
+.calendarWeekendDayHeaderNormal,
+.calendarWeekendDayHeaderLocked,
+.calendarWorkingDayHeaderNormal,
+.calendarWorkingDayHeaderLocked,
+.calendarWeekendDayHeaderNormal_today,
+.calendarWeekendDayHeaderLocked_today,
+.calendarWorkingDayHeaderNormal_today,
+.calendarWorkingDayHeaderLocked_today
+{
+    color: #ffffff;
+    font-family: Arial, Helvetica;
+    font-size: 13px;
+	line-height: 16px;
+    font-weight: bold;
+	height: 16px;
+}
+
+.taskNameColumn {
+    padding-left: 25px !important;
+    vertical-align: middle;
+}
+
+.overtimebuttontd
+{
+    background-color: #f8f8f8;
+}
+
+.overtimebuttontd_today
+{
+    background-color: #fff4c1;
+}
+
+.naOvertime
+{
+    padding-right: 0;
+    text-align: center;
+}
+
+.naOvertime span
+{
+    padding-right: 0;
+    font-weight: normal;
+    font-size: 8pt;
+    line-height: 9pt !important;
+    position: inherit !important;
+    top: inherit !important;
+    /* lines below are for IE only */
+    line-height: 4pt;
+    position: relative;
+    top: 1.5pt;
+}
+
+
+/* LeavePopup */
+
+div.leavePopup
+{
+    position:absolute;
+    border: none;
+    background-color: #fef8d1;
+}
+
+div.leavePopupInnerDiv
+{
+    border: solid 2px #ffc200;
+    padding: 5px;
+}
+
+div.leavePopup hr
+{
+    color: #ffc200;
+    background-color: #ffc200;
+    height: 1px;
+    border: none;
+}
+
+
+/* LeaveButton normal */
+
+table.leaveButton
+{
+    cursor: pointer;
+}
+
+table.leaveButton img.leaveButton_arrowBlack
+{
+    display: block;
+}
+
+table.leaveButton img.leaveButton_arrowGray
+{
+    display: none;
+}
+
+/* TODO: CSS selectors with chained classes are not supported in IE6 and other IEs in IE6 compatibility mode.
+         So it's a risky code below. */
+
+/* LeaveButton disabled */
+
+table.leaveButton.disabled
+{
+    cursor: default;
+}
+
+table.leaveButton.disabled img.leaveButton_arrowBlack
+{
+    display: none;
+}
+
+table.leaveButton.disabled td.leaveButton_arrowCell
+{
+    display: none;
+}
+
+
+/* LeaveButton invalid */
+
+table.leaveButton.invalid
+{
+    border: 2px solid #ff0000 !important;
+}
+
+
+/* LeaveButton hover */
+
+table.leaveButton.hovered
+{
+    background-color: #ffd303 !important;
+}
+
+
+/* LeaveButton selected */
+table.leaveButton.pressed
+{
+    background-color: #ffc200 !important;
+}
+
+
+/* LeaveButton text div*/
+
+div.leaveButton_text
+{
+    font-size: 10px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    text-align: center;
+    padding: 0;
+}
+
+div.leaveButton_timeOffImg
+{
+    padding-bottom: 2px;
+    padding-left: 4px;
+}
+
+table.leavePopupTable
+{
+    margin-top:5px;
+    margin-right:5px;
+}
+
+td.popupTableRadioCell
+{
+    padding-right: 0;
+    width:5px;
+}
+
+.rowToDelete .listtblcell_submit_tt,
+.rowToDelete .listtblcell_submit_tt a:link,
+.rowToDelete .listtblcell_submit_tt a:visited,
+.rowToDelete .listtblcell_submit_tt a:hover,
+.rowToDelete .deadline_NA,
+.rowToDelete .deadline_in_the_past,
+.rowToDelete input,
+.rowToDelete .listtblcell_submit_tt_background_pink,
+.rowToDelete .listtblcell_submit_tt_background
+{
+    color: #999999 !important;
+}
+
+.rowToDelete .modifiedSpentField
+{
+    background-color: #dfcfb1;
+}
+
+.rowToDelete input
+{
+    background-color: #d4d0c8;
+    cursor: default;
+}
+
+.rowToDelete .cursorImageLink
+{
+    cursor:default;
+}
+
+.completedTaskRow .listtblcell_submit_tt,
+.completedTaskRow .listtblcell_submit_tt a:link,
+.completedTaskRow .listtblcell_submit_tt a:visited,
+.completedTaskRow .listtblcell_submit_tt a:hover
+{
+    color: #6d6d6d !important;
+}
+
+.completedTaskRow .calendarWorkingDayNormal,
+.completedTaskRow .calendarWeekendDayNormal,
+.completedTaskRow .calendarCurrentDayNormal,
+.completedTimeText
+{
+    color: #636569 !important;
+}
+
+.completedTaskMark img {
+    position: absolute;
+    left:  -20px;
+    top: 50%;
+    margin-top: 0;
+}
+
+.completedTaskMark {
+    float: left;
+    display: block;
+    position: relative;
+    padding: 0;
+}
+
+#MessagesTable,
+#ErrorsTable
+{
+  padding-bottom:3px;
+}
+
+.pagetitle-for-print-only,
+.user-name-for-print-only {
+    font-family: Arial, Helvetica;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.user-name-for-print-only {
+    padding-left: 10px;
+}
+
+.pagetitle-for-print-only {
+    color: #366a98;
+}
+
+/* cursor for selected row */
+.tt-table .selectionLeftContainer {
+    width: 21px;
+    background-color: #ffffff;
+    border: none !important;
+    vertical-align: top;
+    padding: 0;
+}
+
+.tt-table .selectionRightSeparator {
+    background-color: #ffffff;
+    border: none;
+}
+
+.tt-table .selectionRightContainer {
+    background-color: #ffffff;
+    vertical-align: middle;
+    border: none;
+    padding: 0;
+}
+
+.tt-table .selectedRow .selectionRightSeparator,
+.tt-table .afterSelectedRow .selectionRightSeparator {
+    border-top: 1px solid #bfbfbf;
+}
+
+.tt-table .selectedRow .listtblcell_submit_tt,
+.tt-table .selectedRow .calendarWorkingDayNormal,
+.tt-table .selectedRow .calendarWeekendDayNormal,
+.tt-table .selectedRow .calendarCurrentDayNormal {
+    border-top: 1px solid #969696 !important;
+    border-bottom: 1px solid #969696 !important;
+    background-color: #fcf3d9 !important;
+}
+
+.tt-table .beforeSelectedRow .summaryheader,
+.tt-table .beforeSelectedRow .leaveButtonCell,
+.tt-table .beforeSelectedRow .listtblcell_submit_tt,
+.tt-table .beforeSelectedRow .calendarWorkingDayNormal,
+.tt-table .beforeSelectedRow .calendarWeekendDayNormal,
+.tt-table .beforeSelectedRow .calendarCurrentDayNormal,
+.tt-table .beforeSelectedRow .listtblcolheader_submit_tt,
+.tt-table .beforeSelectedRow .calendarWorkingDayTotal,
+.tt-table .beforeSelectedRow .calendarWeekendDayTotal,
+.tt-table .beforeSelectedRow .calendarLockedWorkingDayTotal,
+.tt-table .beforeSelectedRow .calendarLockedWeekendDayTotal,
+.tt-table .beforeSelectedRow .calendarWorkingDayTotal_today,
+.tt-table .beforeSelectedRow .calendarWeekendDayTotal_today,
+.tt-table .beforeSelectedRow .calendarLockedWorkingDayTotal_today,
+.tt-table .beforeSelectedRow .calendarLockedWeekendDayTotal_today {
+    border-bottom: 1px solid #969696 !important;
+}
+
+.tt-table .afterSelectedRow .summaryheader,
+.tt-table .afterSelectedRow .leaveButtonCell,
+.tt-table .afterSelectedRow .listtblcell_submit_tt,
+.tt-table .afterSelectedRow .calendarWorkingDayNormal,
+.tt-table .afterSelectedRow .calendarWeekendDayNormal,
+.tt-table .afterSelectedRow .calendarCurrentDayNormal,
+.tt-table .afterSelectedRow .listtblcolheader_submit_tt,
+.tt-table .afterSelectedRow .calendarWorkingDayTotal,
+.tt-table .afterSelectedRow .calendarWeekendDayTotal,
+.tt-table .afterSelectedRow .calendarLockedWorkingDayTotal,
+.tt-table .afterSelectedRow .calendarLockedWeekendDayTotal,
+.tt-table .afterSelectedRow .calendarWorkingDayTotal_today,
+.tt-table .afterSelectedRow .calendarWeekendDayTotal_today,
+.tt-table .afterSelectedRow .calendarLockedWorkingDayTotal_today,
+.tt-table .afterSelectedRow .calendarLockedWeekendDayTotal_today {
+    border-top: 1px solid #969696 !important;
+}
+
+.tt-table .selectionCursorLeftLug,
+.tt-table .selectionCursorRightLug,
+.mainSidesPadding .selectionCursorRightLug
+{
+    display: none;
+    position: relative;
+    text-align: left;
+    margin: 0 0 1px 0px;
+}
+
+.mainSidesPadding .selectionCursorRightLug
+{
+    padding-left:13px !important;
+}
+
+.tt-table .spacer,
+.mainSidesPadding .spacer{
+    display: block;
+    visibility: hidden;
+}
+
+.tt-table .selectionCursorRightLug,
+.mainSidesPadding .selectionCursorRightLug{
+    left: -13px;
+}
+
+.tt-table .selectionCursorLeftLug {
+    float: right;
+}
+
+.tt-table .selectedRow .selectionCursorLeftLug,
+.tt-table .selectedRow .selectionCursorRightLug,
+.tt-table .slightlySelectedRow .selectionCursorLeftLug,
+.tt-table .slightlySelectedRow .selectionCursorRightLug
+{
+    display: block;
+}
+
+.tt-table .taskButton
+{
+    background: no-repeat left 1px;
+    position: relative; /* fix for IE6 not showing background image */
+}
+
+.tt-table .taskButton a,
+.tt-table .taskButton span
+{
+    font-size: 9px;
+    line-height: 14px;
+    padding-left: 19px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.mainSidesPadding .taskButton span
+{
+    font-size: 9px;
+    line-height: 14px;
+    padding-left: 19px;
+    _padding-left:0px !important; 
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.tt-table .selectedRow .taskButton .disabledButtonText
+{
+    color: #a1a1a1;
+    cursor: default;
+}
+
+.tt-table .completeTaskButton
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/complete-inactive.gif?hash=797059755);
+    margin-bottom: 4px;
+}
+
+.tt-table .selectedRow .completeTaskButton
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/complete-active.gif?hash=797059755);
+}
+
+.tt-table .selectedRow .completeTaskButton a
+{
+    color: #444444;
+}
+
+.tt-table .selectedRow .completeTaskButton a:hover
+{
+    color: #579100;
+}
+
+.tt-table .completeTaskButtonDisabled
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/complete-disabled-inactive.gif?hash=797059755);
+}
+
+.tt-table .selectedRow .completeTaskButtonDisabled
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/complete-disabled-active.gif?hash=797059755);
+}
+
+.tt-table .undoCompleteTaskButton
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/undo-complete-inactive.gif?hash=797059755);
+}
+
+.tt-table .selectedRow .undoCompleteTaskButton
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/undo-complete-active.gif?hash=797059755);
+}
+
+.tt-table .selectedRow .undoCompleteTaskButton a
+{
+    color: #5f5f5f;
+    padding-left: 22px;
+}
+
+.tt-table .selectedRow .undoCompleteTaskButton a:hover
+{
+    color: #777777;
+}
+
+.tt-table .removeTaskButton
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/remove-inactive.gif?hash=797059755);
+}
+
+.tt-table .selectedRow .removeTaskButton
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/remove-active.gif?hash=797059755);
+}
+
+.tt-table .selectedRow .removeTaskButton a
+{
+    color: #444444;
+}
+
+.tt-table .selectedRow .removeTaskButton a:hover
+{
+    color: #83673c;
+}
+
+.tt-table .removeTaskButtonDisabled
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/remove-disabled-inactive.gif?hash=797059755);
+}
+
+.tt-table .selectedRow .removeTaskButtonDisabled
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/remove-disabled-active.gif?hash=797059755);
+}
+
+.tt-table .undoRemoveTaskButton
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/undo-remove-inactive.gif?hash=797059755);
+}
+
+.tt-table .selectedRow .undoRemoveTaskButton
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/undo-remove-active.gif?hash=797059755);
+}
+
+.tt-table .selectedRow .undoRemoveTaskButton a
+{
+    color: #5f5f5f;
+    padding-left: 22px;
+}
+
+.tt-table .selectedRow .undoRemoveTaskButton a:hover
+{
+    color: #777777;
+}
+
+.tt-table .reopenTaskButton
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/reopen-inactive.gif?hash=797059755);
+}
+
+.tt-table .selectedRow .reopenTaskButton
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/reopen-active.gif?hash=797059755);
+}
+
+.tt-table .selectedRow .reopenTaskButton a
+{
+    color: #5f5f5f;
+}
+
+.tt-table .selectedRow .reopenTaskButton a:hover
+{
+    color: #777777;
+}
+
+.tt-table .reopenTaskButtonDisabled
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/reopen-disabled-inactive.gif?hash=797059755);
+}
+
+.tt-table .selectedRow .reopenTaskButtonDisabled
+{
+    background-image: url(/img/default/dialogs/submit_tt/sidebar/reopen-disabled-active.gif?hash=797059755);
+}
+
+
+.tt-table .rowToComplete .completeTaskButton,
+.tt-table .rowToComplete .removeTaskButton,
+.tt-table .rowToComplete .removeTaskButtonDisabled,
+.tt-table .rowToDelete .completeTaskButton,
+.tt-table .rowToDelete .removeTaskButton,
+.tt-table .rowToDelete .removeTaskButtonDisabled
+{
+    display: none;
+}
+
+.tt-table .actualRow .undoCompleteTaskButton,
+.tt-table .rowToDelete .undoCompleteTaskButton,
+.tt-table .actualRow .undoRemoveTaskButton,
+.tt-table .rowToComplete .undoRemoveTaskButton
+{
+    display: none;
+}
+
+.tt-table .rowToComplete .undoCompleteTaskButton,
+.tt-table .rowToDelete .undoRemoveTaskButton
+{
+    display: block;
+}
+
+
+/* end of cursor for selected row */
+
+/* these rules shall be placed after .rowToComplete rules, otherwise IE6 will display the wrong bg color*/
+.tt-table .rowToComplete .calendarCurrentDayNormal,
+.tt-table .rowToComplete .calendarWeekendDayNormal,
+.tt-table .rowToComplete .calendarWorkingDayNormal,
+.tt-table .rowToComplete .listtblcell,
+.tt-table .rowToComplete .listtblcell_submit_tt_background_pink,
+.tt-table .rowToComplete .listtblcell_submit_tt_background
+{
+    background-color: #e1efc7 !important;
+}
+
+.tt-table .rowToDelete .calendarCurrentDayNormal,
+.tt-table .rowToDelete .calendarWeekendDayNormal,
+.tt-table .rowToDelete .calendarWorkingDayNormal,
+.tt-table .rowToDelete .listtblcell,
+.tt-table .rowToDelete .listtblcell_submit_tt_background_pink,
+.tt-table .rowToDelete .listtblcell_submit_tt_background
+{
+    background-color: #efeeee !important;
+}
+
+.savingText,
+.savingTextModified
+{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 4px;
+    font-family: Tahoma, sans-serif;
+    font-size: 11px;
+}
+
+.savingText
+{
+    color: 929292;
+}
+
+.savingTextModified
+{
+    color: be8e00;
+}
+
+.savingTextTop
+{
+    color: d09c28;
+    padding-left: 10px;
+    font-family: Tahoma, sans-serif;
+    font-size: 11px;
+    padding-top:1px;
+}

@@ -1,0 +1,234 @@
+
+
+/********************************** BEGIN MOIRE PROPERTIES **********************************/
+/* Menu moire properties */
+#menuMoireDiv {
+    background: url("/img/default/pixel.gif?hash=797059755") repeat;
+
+    position: absolute;
+    z-index: 1004; /* Under "Modifications Not Saved" moire */
+
+    display: none;
+}
+
+/* Menu moire iframe properties */
+#menuMoireIframe {
+    position: absolute;
+    z-index: 99; /* Under "Modifications Not Saved" moire */
+    top: 0;
+    left: 0;
+
+    width: 330px;
+    height: 5px;
+
+    display: none;
+}
+/********************************** END MOIRE PROPERTIES **********************************/
+
+/********************************** BEGIN HELP & SUPPORT MENU **********************************/
+
+/* Menu positioning */
+.menu {
+    position: absolute;
+    z-index: 1005;
+    display: none;
+}
+
+/* Menu font properties */
+.menu * {
+    font-family: Arial, Helvetica, Tahoma, Verdana, MS Sans Serif, serif;
+    font-size: 11px;
+}
+
+/* Menu table properties. Table is used for make-up. */
+.menu table {
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: none;
+}
+/********************************** END HELP & SUPPORT MENU **********************************/
+
+/********************************** BEGIN TOP & BOTTOM BORDERS **********************************/
+/* Menu background color */
+.menu table .menuItemsTable {
+    background-color: #edf4ff;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+/* Menu top border */
+.menu .top {
+    background-image: url("/img/default/support/menu/top.gif?hash=797059755");
+    background-position: bottom;
+}
+
+/* Menu bottom border */
+.menu .bottom {
+    background-image: url("/img/default/support/menu/bottom.png?hash=797059755");
+    background-position: top;
+}
+
+.menu .top,
+.menu .bottom {
+    background-repeat: repeat-x;
+}
+
+.menu .top,
+.menu .bottom,
+.menu .top img,
+.menu .bottom img {
+    height: 7px; /* background image height */
+}
+/********************************** END TOP & BOTTOM BORDERS **********************************/
+
+/********************************** BEGIN LEFT & RIGHT BORDERS **********************************/
+/* Menu left border */
+.menu .left {
+    background-image: url("/img/default/support/menu/left.gif?hash=797059755");
+    background-position: right;
+}
+
+/* Menu right border */
+.menu .right {
+    background-image: url("/img/default/support/menu/right.png?hash=797059755");
+    background-position: left;
+}
+
+.menu .left,
+.menu .right {
+    background-repeat: repeat-y;
+}
+
+.menu .left,
+.menu .right,
+.menu .left img,
+.menu .right img {
+    width: 7px; /* background image width */
+}
+/********************************** BEGIN LEFT & RIGHT BORDERS **********************************/
+
+/********************************** BEGIN ANGLES **********************************/
+/* Menu right top border angle */
+.menu .rightTop {
+    background-image: url("/img/default/support/menu/right-top.png?hash=797059755");
+}
+
+/* Menu right bottom border angle */
+.menu .rightBottom {
+    background-image: url("/img/default/support/menu/right-bottom.png?hash=797059755");
+}
+
+.menu .rightTop,
+.menu .rightBottom {
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* Menu left top border angle */
+.menu .leftTop {
+    background-image: url("/img/default/support/menu/left-top.png?hash=797059755");
+}
+
+/* Menu left bottom border angle */
+.menu .leftBottom {
+    background-image: url("/img/default/support/menu/left-bottom.png?hash=797059755");
+}
+.menu .leftTop,
+.menu .leftBottom {
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+/* Menu border angles sizes */
+.menu .rightTop,
+.menu .rightTop img,
+.menu .rightBottom,
+.menu .rightBottom img,
+.menu .leftBottom,
+.menu .leftBottom img,
+.menu .leftTop,
+.menu .leftTop img {
+    width: 7px; /* background image width */
+    height: 7px; /* background image height */
+}
+/********************************** END ANGLES **********************************/
+
+/* Spaces between menu items */
+.menu .menuItemsDelimiter,
+.menu .menuItemsDelimiter img {
+    height: 2px;
+}
+
+/********************************** BEGIN MENU ITEM **********************************/
+
+.menu .menuCell {
+    background-color: #edf4ff;
+}
+
+/* Menu items cursor properties */
+.menu .menuItem {
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+/* Menu item, no highlighting */
+.menu .menuItem div {
+    background-color: #edf4ff;
+    background-image: none;
+    padding: 1px 10px 3px 12px;
+    color: #000000;
+    white-space: nowrap;
+}
+
+#newsUpdatesMenuItem img#newsUpdatesExclamation {
+	position:absolute; 
+	right:11px; 
+	top:54px;
+}
+
+/* Marked menu item, no highlighting */
+.menu .menuItem div.marked {
+    background-color: #d5dfee;
+}
+
+/* Menu item, highlighting */
+.menu .menuItem div.highlighted {
+    background: 0 5px #3067a5 no-repeat;
+    color: #ffffff;
+}
+/********************************** END MENU ITEM **********************************/
+
+/********************************** BEGIN SEPARATOR **********************************/
+/* Menu items separator properties */
+.menu .separator {
+    background: repeat-x center #c3d5f0;
+}
+
+.menu .separator img {
+    width: 1px;
+    height: 1px;
+}
+/********************************** END SEPARATOR **********************************/
+
+/********************************** CLASS NAMES FOR ADD-ONS MENU ******************/
+.mobileButton{
+    background: url('/img/default/top_nav/mobile-icon-regular.png?hash=797059755') no-repeat !important;
+}
+
+.quickBooksButton{
+    background: url('/img/default/top_nav/qb-icon.gif?hash=797059755') no-repeat !important;
+}
+
+.mobileButton, .quickBooksButton {
+    float: left;
+    position: relative;
+    left: -7px;
+    padding: 0 !important;
+    width: 11px;
+    background-position: center !important;
+}
+
+.mobileButton {
+    height: 17px;
+}
